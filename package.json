@@ -6,7 +6,8 @@
   "scripts": {
     "dev:ts": "ts-node src/ts/index.ts",
     "compile": "babel src/babel --out-dir compiled",
-    "serve": "node server/index.js"
+    "serve": "node server/index.js",
+    "build": "tsc src/ts/index.ts --skipLibCheck --outDir dist"
   },
   "keywords": [],
   "author": "",
